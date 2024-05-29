@@ -1,0 +1,22 @@
+Types of thread pool 
+	
+	1. Fixed Thread pool
+	2. Cached Thread pool
+	3. Scheduled Thread pool
+	4. SingleThreaded Executor
+	
+	
+	
+	Cached Thread Pool : -> 
+		unlike Fixed thread pool, it doesn't have blocking queue for tasks, instead it has Synchronous queue. 
+		which can hold only 1 task, if checks if any thread is free then it is assign task to that thread, if all threads are busy then it will create a new one 
+		and assign task. 
+		in this way it can create any number of threads. 
+		as soon as existing threads are done with task, it will use them for new tasks. 
+		at the same time as it finds the thread sitting idel for more than 60 sec, it will kill the thread. 
+		
+		it is good option when we have long list of very small tasks.
+		
+		
+	
+	
