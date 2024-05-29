@@ -1,0 +1,6 @@
+Ex 4 : Print courses whose name has atleast 4 letters 
+Ex 5 : Print the cube of odd numbers 
+Ex 6 : Print the number of characters in each course name
+Ex 7 : Square every number in a list and find the sum of squares
+Ex 8 : Cube every number in the list and find the sum of cubes 
+Ex 9 : find sum of odd number in list 
